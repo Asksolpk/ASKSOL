@@ -1,15 +1,19 @@
 :root {
-    --primary-bg: #5D3A5D;
-    /* Deep Purple */
-    --secondary-bg: #4A2C4A;
-    /* Darker Purple */
-    --accent-yellow: #FFC107;
-    /* Vibrant Yellow */
+    --primary-bg: #654321;
+    /* Dark Brown */
+    --secondary-bg: #7B3F00;
+    /* Chocolate Brown */
+    --accent-color: #D2B48C;
+    /* Light Brown/Tan */
     --text-white: #FFFFFF;
     --text-gray: #E0E0E0;
     --text-dark: #333333;
     --card-bg: rgba(255, 255, 255, 0.05);
     --font-main: 'Inter', sans-serif;
+    --btn-bg: #8B4513;
+    /* Saddle Brown */
+    --btn-hover: #A52A2A;
+    /* Basic Brown */
 }
 
 * {
@@ -394,7 +398,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #2a1a2a;
+    background-color: #3C2B1D;
     padding: 60px 0 20px;
     color: var(--text-gray);
 }
