@@ -98,13 +98,14 @@ body {
 }
 
 .btn-primary {
-    background-color: var(--primary-bg);
+    background-color: var(--btn-bg);
     color: white;
 }
 
 .btn-primary:hover {
     background-color: var(--secondary-bg);
     transform: translateY(-2px);
+    transition: 0.2s;
 }
 
 .btn-yellow {
@@ -220,6 +221,11 @@ body {
     border-radius: 20px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
     object-fit: cover;
+}
+
+.hero-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(255, 213, 79, 0.5);
 }
 
 /* Floating Card */
